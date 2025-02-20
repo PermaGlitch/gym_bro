@@ -1,0 +1,17 @@
+// Utility classes START
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    @media screen and (max-width: 1080px) {
+        max-width: 728px;
+    }
+    @media screen and (max-width: 728px) {
+        max-width: 556px;
+    }
+    @media screen and (max-width: 556px) {
+        max-width: 390px;
+    }
+}
+
+// Utility classes END

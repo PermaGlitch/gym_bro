@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #EEE;
+  background: #333;
+}
+
+.app-wrapper {
+  min-width: 100%;
+  min-height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
